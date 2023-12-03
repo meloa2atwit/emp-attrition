@@ -10,6 +10,7 @@ The Dataset is made of various employee attributes such as: Age, Attrition (bool
 An exhaustive list of the datasets columns is shown below:
 <details>
     <summary>View Columns</summary>
+    
 | Column | Example Value |
 | --- | --- |
 | Age | 41 |
@@ -47,6 +48,7 @@ An exhaustive list of the datasets columns is shown below:
 | YearsInCurrentRole | 4 |
 | YearsSinceLastPromotion | 0 |
 | YearsWithCurrManager | 5 |
+
 </details>
 
 
