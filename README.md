@@ -1,7 +1,11 @@
 # Employee Attrition | Data Science Project
 
 ## Introduction
-
+The objective of this project is to train a model that is able to predict the attrition level of an employee, as well as uncovering the factors that are most likely to lead to employee attrition.
+Some question that will be answered by this prpjects are:
+1. To Do
+2. To Do
+3. To Do
 
 ## Selection of Data
 The source of the dataset used to train and test this modde is Keggle. The link can be found [here](https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition)
@@ -21,9 +25,6 @@ Education
 | 'Doctor' | 4 |
 
 </details>
-
-
-
 An exhaustive list of the datasets columns is shown below:
 <details>
     <summary>View Columns</summary>
@@ -68,9 +69,12 @@ An exhaustive list of the datasets columns is shown below:
 
 </details>
 
-
-
 ## Methods
+Tools used in this projects:
+- Kaggle for acquiring a free and public dataset
+- Python (NumPy and Pandas) for analysis
+- VS Code to edit code
+- Github to store source code, results and graphs, and the dataset
 
 ## Results
 
