@@ -54,6 +54,10 @@ An exhaustive list of the datasets columns is shown below:
 
 ## Methods
 
+| sample | sample
+| --- | --- |
+| one | one |
+| tow | two |
 
 ## Results
 
