@@ -10,42 +10,46 @@ The Dataset is made of various employee attributes such as: Age, Attrition (bool
 An exhaustive list of the datasets columns is shown below:
 <details>
     <summary>View Columns</summary>
-1. Age<br>
-2. Attrition<br>
-3. BusinessTravel<br>
-4. DailyRate<br>
-5. Department<br>
-6. DistanceFromHome<br>
-7. Education<br>
-8. EducationField<br>
-9. EmployeeCount<br>
-10. EmployeeNumber<br>
-11. EnvironmentSatisfaction<br>
-12. Gender<br>
-13. HourlyRate<br>
-14. JobInvolvement<br>
-15. JobLevel<br>
-16. JobRole<br>
-17. JobSatisfaction<br>
-18. MaritalStatus<br>
-19. MonthlyIncome<br>
-20. MonthlyRate<br>
-21. NumCompaniesWorked<br>
-22. Over18<br>
-23. OverTime<br>
-24. PercentSalaryHike<br>
-25. PerformanceRating<br>
-26. RelationshipSatisfaction<br>
-27. StandardHours<br>
-28. StockOptionLevel<br>
-29. TotalWorkingYears<br>
-30. TrainingTimesLastYear<br>
-31. WorkLifeBalance<br>
-32. YearsAtCompany<br>
-33. YearsInCurrentRole<br>
-34. YearsSinceLastPromotion<br>
-35. YearsWithCurrManager
+| Column | Example Value |
+| --- | --- |
+| Age | 41 |
+| Attrition | Yes |
+| BusinessTravel | Travel_Rarely |
+| DailyRate | 1102 |
+| Department | Sales |
+| DistanceFromHome | 1 |
+| Education | 2 |
+| EducationField | Life Sciences |
+| EmployeeCount | 1 |
+| EmployeeNumber | 1 |
+| EnvironmentSatisfaction | 2 |
+| Gender | Female |
+| HourlyRate | 94 |
+| JobInvolvement | 3 |
+| JobLevel | 2 |
+| JobRole | Sales Executive |
+| JobSatisfaction | 4 |
+| MaritalStatus | Single |
+| MonthlyIncome | 5993 |
+| MonthlyRate | 19479 |
+| NumCompaniesWorked | 8 |
+| Over18 | Y |
+| OverTime | Yes |
+| PercentSalaryHike | 11 |
+| PerformanceRating | 3 |
+| RelationshipSatisfaction | 1 |
+| StandardHours | 80 |
+| StockOptionLevel | 0 |
+| TotalWorkingYears | 8 |
+| TrainingTimesLastYear | 0 |
+| WorkLifeBalance | 1 |
+| YearsAtCompany | 6 |
+| YearsInCurrentRole | 4 |
+| YearsSinceLastPromotion | 0 |
+| YearsWithCurrManager | 5 |
 </details>
+
+
 ## Methods
 
 
