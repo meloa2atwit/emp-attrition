@@ -19,4 +19,4 @@ train_df = df.sample(n=train_size, frac=None, replace=False, random_state=RANDOM
 ## TESTING
 cols = train_df.columns
 for idx, c in enumerate(cols):
-    print(f"{idx+1}. {c}\n")
+    print(f"{idx+1}. {c}<br>")
