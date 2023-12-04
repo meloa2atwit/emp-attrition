@@ -10,11 +10,11 @@ Some question that will be answered by this prpjects are:
 ## Selection of Data
 The source of the dataset used to train and test this modde is Keggle. The link can be found [here](https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition)
 
-To make working with this data easier, some non-numeric attributes such as Educaton, are converted to numbers.
+- To make working with this data easier, some non-numeric attributes such as Educaton, are converted to numbers.
 <details>
 <summary>View Conversions</summary>
-Education
 
+Education
 | Raw Value | Numeric Representation |
 | --- | --- |
 | 'Below College | 1 |
@@ -23,9 +23,10 @@ Education
 | 'Doctor' | 4 |
 
 </details>
-An exhaustive list of the datasets columns is shown below:
+
+- Click to view an exhaustive list of the datasets columns
 <details>
-    <summary>View Columns</summary>
+<summary>View Columns</summary>
     
 | Column | Example Value |
 | --- | --- |
