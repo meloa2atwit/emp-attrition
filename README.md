@@ -14,6 +14,7 @@ To make working with this data easier, some non-numeric attributes such as Educa
 <details>
 <summary>View Conversions</summary>
 Education
+
 | Raw Value | Numeric Representation |
 | --- | --- |
 | 'Below College | 1 |
