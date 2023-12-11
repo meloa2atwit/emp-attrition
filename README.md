@@ -7,6 +7,10 @@ Some question that will be answered by this prpjects are:
 2. Given the attributes of an employee, predict attrition.
 3. Which department has the highest level of attrition?
 
+Here is an exaple of the first few rows of the data set
+
+![records example](./graph/image.png)
+
 ## Selection of Data
 The source of the dataset used to train and test this modde is Keggle. The link can be found [here](https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition)
 
