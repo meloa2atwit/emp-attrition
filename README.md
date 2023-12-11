@@ -67,11 +67,14 @@ Education
 </details>
 
 ## Methods
-Tools used in this projects:
+Tools used to clean and interpert data:
 - Kaggle for acquiring a free and public dataset
 - Python (NumPy and Pandas) for analysis
 - VS Code to edit code
 - Github to store source code, results and graphs, and the dataset
+Tools used to create learnig models
+- sklearn.ensemble for the RandomForestRegressor class and well as the RandomForestClassifier model
+- sklearn.metrics for assesing th accurecy level of the mdodel
 
 ## Results
 ### What are some employee attributres that contribute the most to their attrition?
