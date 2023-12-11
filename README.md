@@ -94,13 +94,17 @@ different features in making predictions. the model's parameters were left to th
 The feature impartance score was normalized, to make graphing the infomration a bit easier. The graph of the impartance level of the top 10 columns with the highest score is shown below.
 ![Graph of Feature Importance](graph/Feature-Importance-Graph.png)
 ### Given the attributes of an employee, what is the probability of their attrition?
-To answer this question, I first trained a model called Random Forrest Classifier becasue it is an algorithm that is often used for classification problems, where the goal is to predict the category of an input based on its features. the model was trained on 80% of the data sets data, and tested on the other 20%. Traing and testing data rows were chosen at random. The model can predict attrition with 87% accuracy. 
+To answer this question, I first trained a model called Random Forrest Classifier becasue it is an algorithm that is often used for classification problems, where the goal is to predict the category of an input based on its features. the model was trained on 80% of the data sets data, and tested on the other 20%. Traing and testing data rows were chosen at random. The model can predict attrition with 87% accuracy.
+Check section `Experiment 2` on `main.ipybn` for more details of how the model works
 #### Future Work
 To use the model in real time, I will write a CLI that asks the user for an employees attributes (the 10 most important ones shown in graph above). The model will then let the user know whether this employee is likely to depart, alongside the accuracy level.
-### What is the distribution of working hours for employees who have left the company (attrition = 'Yes') compared to those who have stayed (attrition = 'No')?
-As seen on the graph below, the higher the satisfaction level of an employ, the lesser the chance for them to experience attrition. the graph also shows the number of all employees at a given Job satisfaction level. 
+### Is there a correlation between an employee's level of job involvement and the likelihood of attrition?
+As seen on the graph below, the higher the involvement level of an employ, the lesser the chance for them to experience attrition. the graph also shows the number of all employees at a given Job satisfaction level. 
 the blue line (0) reprezent employees that have not experienced attrition, while teh oringa one means yes.
 ![exp3 image](./graph/exp3.png)
 
 
 ## Discussion 
+In this project I used a regression model to find out what ettributes of an employee are more likey to contribute to them experiencing attrition. I graphed the to 10. I also implemented a model that was trained on 80$ of teh dataset to then be able to predict whether an employee will experience attrition or not. the accurecy level of this model is 87%. Lastly I found a correlation between an employees Job satifaction level and their likelyhood to experience attrition.
+#### Future Work
+To use the model in real time, I will write a CLI that asks the user for an employees attributes (the 10 most important ones shown in graph above). The model will then let the user know whether this employee is likely to depart, alongside the accuracy level.
