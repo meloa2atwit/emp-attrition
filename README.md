@@ -80,6 +80,9 @@ Tools used to create learnig models
 #### Random Tree Classifiers
 A Random Forest Classifier is an ensemble machine learning model that combines multiple decision trees to make predictions. It constructs a forest of decision trees during training and outputs the mode (most frequent) prediction of the individual trees for classification tasks. 
 
+#### Random Tree Regressor
+A Random Forest Regressor is an ensemble machine learning model that employs multiple decision trees to predict continuous numeric values. It builds a forest of decision trees during training and averages the predictions of individual trees to obtain the final regression output.
+
 ## Results
 ### What are some employee attributres that contribute the most to their attrition?
 To answer this question I used a model called RandomForestRegressor. I chose this model because of its high accuracy when it commes to providing insights into the 
