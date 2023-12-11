@@ -98,7 +98,7 @@ To answer this question, I first trained a model called Random Forrest Classifie
 #### Future Work
 To use the model in real time, I will write a CLI that asks the user for an employees attributes (the 10 most important ones shown in graph above). The model will then let the user know whether this employee is likely to depart, alongside the accuracy level.
 ### What is the distribution of working hours for employees who have left the company (attrition = 'Yes') compared to those who have stayed (attrition = 'No')?
-
+![exp3 image](./graph/exp3.png)
 
 
 ## Discussion 
