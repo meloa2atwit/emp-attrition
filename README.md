@@ -78,7 +78,7 @@ Tools used in this projects:
 To answer this question I used a model called RandomForestRegressor. I chose this model because of its high accuracy when it commes to providing insights into the 
 different features in making predictions. the model's parameters were left to their default values. After creating the model, I used the attribute `feature_importances_` to get a score that shows how much the value of a column contributes to the value of the target column, that being the one called "Attrition".
 The feature impartance score was normalized, to make graphing the infomration a bit easier. The graph of the impartance level of the top 10 columns with the highest score is shown below.
-![Graph of Feature Importance]("../graph/Feature-Importance-Graph.png")
+![Graph of Feature Importance]("graph/Feature-Importance-Graph.png")
 
 
 ## Discussion 
