@@ -74,6 +74,8 @@ Tools used in this projects:
 - Github to store source code, results and graphs, and the dataset
 
 ## Results
+#### What are some employee attributres that contribute the most to their attrition?
+To answer this question I used a model caller random
 
 
 ## Discussion 
