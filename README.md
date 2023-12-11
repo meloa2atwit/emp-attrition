@@ -78,7 +78,7 @@ Tools used in this projects:
 To answer this question I used a model called RandomForestRegressor. I chose this model because of its high accuracy when it commes to providing insights into the 
 different features in making predictions. the model's parameters were left to their default values. After creating the model, I used the attribute `feature_importances_` to get a score that shows how much the value of a column contributes to the value of the target column, that being the one called "Attrition".
 The feature impartance score was normalized, to make graphing the infomration a bit easier. The graph of the impartance level of the top 10 columns with the highest score is shown below.
-![Graph of Feature Importance]("graph/Feature-Importance-Graph.png")
+![Graph of Feature Importance](graph/Feature-Importance-Graph.png)
 ### Given the attributes of an employee, what is the probability of their attrition?
 To answer this question, I first trained a model called Random Forrest Classifier becasue it is an algorithm that is often used foer classification problems, where the goal is to predict the category of an input based on its features. the model was trained on 80% of the data sets data, and tested on the other 20%. Traing and testing data rows were chosen at random. The model can predict attrition with 87% accuracy. 
 to use the model in real time, I wrote a CLI that asks the user for an employees attributes (the 10 most important ones shown in graph above). The model will then let the user know whether this employee is likely to depart, alongside the accuracy level.
