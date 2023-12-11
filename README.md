@@ -5,7 +5,7 @@ The objective of this project is to train a model that is able to predict the at
 Some question that will be answered by this prpjects are:
 1. What are some employee attributres that contribute the most to their attrition?
 2. Given the attributes of an employee, predict attrition.
-3. Which department has the highest level of attrition?
+3. Is there a correlation between an employee's level of job involvement and the likelihood of attrition?
 
 Here is an exaple of the first few rows of the data set
 
@@ -97,7 +97,8 @@ The feature impartance score was normalized, to make graphing the infomration a 
 To answer this question, I first trained a model called Random Forrest Classifier becasue it is an algorithm that is often used for classification problems, where the goal is to predict the category of an input based on its features. the model was trained on 80% of the data sets data, and tested on the other 20%. Traing and testing data rows were chosen at random. The model can predict attrition with 87% accuracy. 
 #### Future Work
 To use the model in real time, I will write a CLI that asks the user for an employees attributes (the 10 most important ones shown in graph above). The model will then let the user know whether this employee is likely to depart, alongside the accuracy level.
-### Which departments have the highest levels of attrition?
+### What is the distribution of working hours for employees who have left the company (attrition = 'Yes') compared to those who have stayed (attrition = 'No')?
+
 
 
 ## Discussion 
